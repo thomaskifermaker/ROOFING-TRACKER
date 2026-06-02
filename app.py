@@ -8,7 +8,7 @@ from supabase import create_client, Client
 # Replace these with your actual Supabase project credentials (found in project settings)
 SUPABASE_URL = "https://your-project-id.supabase.co"
 SUPABASE_URL = "https://your-actual-id.supabase.co"
-   SUPABASE_KEY = "your-actual-long-anon-key-here"
+SUPABASE_KEY = "your-actual-long-anon-key-here"
 @st.cache_resource
 def init_supabase() -> Client:
     """Initializes and caches the Supabase client connection."""
